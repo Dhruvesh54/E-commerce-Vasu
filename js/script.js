@@ -18,7 +18,7 @@ const showMenu = (toggleId, navId) =>{
  
  // 1. Select each dropdown item
  dropdownItems.forEach((item) =>{
-     const dropdownButton = item.querySelector('.dropdown__button') 
+     const dropdownButton = item.querySelector('.dropdown-button') 
  
      // 2. Select each button click
      dropdownButton.addEventListener('click', () =>{
@@ -38,7 +38,7 @@ const showMenu = (toggleId, navId) =>{
  // 3. Create a function to display the dropdown
  const toggleItem = (item) =>{
      // 3.1. Select each dropdown content
-     const dropdownContainer = item.querySelector('.dropdown__container')
+     const dropdownContainer = item.querySelector('.dropdown-container')
  
      // 6. If the same item contains the show-dropdown class, remove
      if(item.classList.contains('show-dropdown')){
@@ -53,7 +53,7 @@ const showMenu = (toggleId, navId) =>{
  
  /*=============== DELETE DROPDOWN STYLES ===============*/
  const mediaQuery = matchMedia('(min-width: 1118px)'),
-       dropdownContainer = document.querySelectorAll('.dropdown__container')
+       dropdownContainer = document.querySelectorAll('.dropdown-container')
  
  // Function to remove dropdown styles in mobile mode when browser resizes
  const removeStyle = () =>{

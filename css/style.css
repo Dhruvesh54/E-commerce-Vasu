@@ -804,8 +804,8 @@ li
 .diff-sec-txt
 {
     position: absolute;
-    bottom: 20px;
-    left: 40px;
+    bottom: 30px;
+    left: 50px;
     z-index: 10;
 }
 

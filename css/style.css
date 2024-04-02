@@ -1,0 +1,728 @@
+@font-face {
+    font-family: 'Poppins-ExtraBoldItalic';
+    src: url('fonts/Poppins-ExtraBoldItalic.eot');
+    src: url('fonts/Poppins-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Poppins-ExtraBoldItalic.woff2') format('woff2'),
+        url('fonts/Poppins-ExtraBoldItalic.woff') format('woff'),
+        url('fonts/Poppins-ExtraBoldItalic.ttf') format('truetype'),
+        url('fonts/Poppins-ExtraBoldItalic.svg#Poppins-ExtraBoldItalic') format('svg');
+    font-weight: 800;
+    font-style: italic;
+    font-display:swap;
+}
+
+@font-face {
+    font-family: 'Poppins-Medium';
+    src: url('fonts/Poppins-Medium.eot');
+    src: url('fonts/Poppins-Medium.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Poppins-Medium.woff2') format('woff2'),
+        url('fonts/Poppins-Medium.woff') format('woff'),
+        url('fonts/Poppins-Medium.ttf') format('truetype'),
+        url('fonts/Poppins-Medium.svg#Poppins-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display:swap;
+}
+
+@font-face {
+    font-family: 'Poppins-Italic';
+    src: url('fonts/Poppins-Italic.eot');
+    src: url('fonts/Poppins-Italic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Poppins-Italic.woff2') format('woff2'),
+        url('fonts/Poppins-Italic.woff') format('woff'),
+        url('fonts/Poppins-Italic.ttf') format('truetype'),
+        url('fonts/Poppins-Italic.svg#Poppins-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display:swap;
+}
+
+@font-face {
+    font-family: 'Poppins-SemiBold';
+    src: url('fonts/Poppins-SemiBold.eot');
+    src: url('fonts/Poppins-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Poppins-SemiBold.woff2') format('woff2'),
+        url('fonts/Poppins-SemiBold.woff') format('woff'),
+        url('fonts/Poppins-SemiBold.ttf') format('truetype'),
+        url('fonts/Poppins-SemiBold.svg#Poppins-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display:swap;
+}
+
+@font-face {
+    font-family: 'Poppins-BlackItalic';
+    src: url('fonts/Poppins-BlackItalic.eot');
+    src: url('fonts/Poppins-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Poppins-BlackItalic.woff2') format('woff2'),
+        url('fonts/Poppins-BlackItalic.woff') format('woff'),
+        url('fonts/Poppins-BlackItalic.ttf') format('truetype'),
+        url('fonts/Poppins-BlackItalic.svg#Poppins-BlackItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+    font-display:swap;
+}
+
+@font-face {
+    font-family: 'Poppins-ExtraLight';
+    src: url('fonts/Poppins-ExtraLight.eot');
+    src: url('fonts/Poppins-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Poppins-ExtraLight.woff2') format('woff2'),
+        url('fonts/Poppins-ExtraLight.woff') format('woff'),
+        url('fonts/Poppins-ExtraLight.ttf') format('truetype'),
+        url('fonts/Poppins-ExtraLight.svg#Poppins-ExtraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+    font-display:swap;
+}
+
+@font-face {
+    font-family: 'Poppins-ExtraLightItalic';
+    src: url('fonts/Poppins-ExtraLightItalic.eot');
+    src: url('fonts/Poppins-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Poppins-ExtraLightItalic.woff2') format('woff2'),
+        url('fonts/Poppins-ExtraLightItalic.woff') format('woff'),
+        url('fonts/Poppins-ExtraLightItalic.ttf') format('truetype'),
+        url('fonts/Poppins-ExtraLightItalic.svg#Poppins-ExtraLightItalic') format('svg');
+    font-weight: 200;
+    font-style: italic;
+    font-display:swap;
+}
+
+@font-face {
+    font-family: 'Poppins-SemiBoldItalic';
+    src: url('fonts/Poppins-SemiBoldItalic.eot');
+    src: url('fonts/Poppins-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Poppins-SemiBoldItalic.woff2') format('woff2'),
+        url('fonts/Poppins-SemiBoldItalic.woff') format('woff'),
+        url('fonts/Poppins-SemiBoldItalic.ttf') format('truetype'),
+        url('fonts/Poppins-SemiBoldItalic.svg#Poppins-SemiBoldItalic') format('svg');
+    font-weight: 600;
+    font-style: italic;
+    font-display:swap;
+}
+
+@font-face {
+    font-family: 'Poppins-BoldItalic';
+    src: url('fonts/Poppins-BoldItalic.eot');
+    src: url('fonts/Poppins-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Poppins-BoldItalic.woff2') format('woff2'),
+        url('fonts/Poppins-BoldItalic.woff') format('woff'),
+        url('fonts/Poppins-BoldItalic.ttf') format('truetype'),
+        url('fonts/Poppins-BoldItalic.svg#Poppins-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display:swap;
+}
+
+@font-face {
+    font-family: 'Poppins-Regular';
+    src: url('fonts/Poppins-Regular.eot');
+    src: url('fonts/Poppins-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Poppins-Regular.woff2') format('woff2'),
+        url('fonts/Poppins-Regular.woff') format('woff'),
+        url('fonts/Poppins-Regular.ttf') format('truetype'),
+        url('fonts/Poppins-Regular.svg#Poppins-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display:swap;
+}
+
+@font-face {
+    font-family: 'Poppins-LightItalic';
+    src: url('fonts/Poppins-LightItalic.eot');
+    src: url('fonts/Poppins-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Poppins-LightItalic.woff2') format('woff2'),
+        url('fonts/Poppins-LightItalic.woff') format('woff'),
+        url('fonts/Poppins-LightItalic.ttf') format('truetype'),
+        url('fonts/Poppins-LightItalic.svg#Poppins-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display:swap;
+}
+
+@font-face {
+    font-family: 'Poppins-Bold';
+    src: url('fonts/Poppins-Bold.eot');
+    src: url('fonts/Poppins-Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Poppins-Bold.woff2') format('woff2'),
+        url('fonts/Poppins-Bold.woff') format('woff'),
+        url('fonts/Poppins-Bold.ttf') format('truetype'),
+        url('fonts/Poppins-Bold.svg#Poppins-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display:swap;
+}
+
+@font-face {
+    font-family: 'Poppins-ThinItalic';
+    src: url('fonts/Poppins-ThinItalic.eot');
+    src: url('fonts/Poppins-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Poppins-ThinItalic.woff2') format('woff2'),
+        url('fonts/Poppins-ThinItalic.woff') format('woff'),
+        url('fonts/Poppins-ThinItalic.ttf') format('truetype'),
+        url('fonts/Poppins-ThinItalic.svg#Poppins-ThinItalic') format('svg');
+    font-weight: 100;
+    font-style: italic;
+    font-display:swap;
+}
+
+@font-face {
+    font-family: 'Poppins-Black';
+    src: url('fonts/Poppins-Black.eot');
+    src: url('fonts/Poppins-Black.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Poppins-Black.woff2') format('woff2'),
+        url('fonts/Poppins-Black.woff') format('woff'),
+        url('fonts/Poppins-Black.ttf') format('truetype'),
+        url('fonts/Poppins-Black.svg#Poppins-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display:swap;
+}
+
+@font-face {
+    font-family: 'Poppins-Light';
+    src: url('fonts/Poppins-Light.eot');
+    src: url('fonts/Poppins-Light.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Poppins-Light.woff2') format('woff2'),
+        url('fonts/Poppins-Light.woff') format('woff'),
+        url('fonts/Poppins-Light.ttf') format('truetype'),
+        url('fonts/Poppins-Light.svg#Poppins-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display:swap;
+}
+
+@font-face {
+    font-family: 'Poppins-ExtraBold';
+    src: url('fonts/Poppins-ExtraBold.eot');
+    src: url('fonts/Poppins-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Poppins-ExtraBold.woff2') format('woff2'),
+        url('fonts/Poppins-ExtraBold.woff') format('woff'),
+        url('fonts/Poppins-ExtraBold.ttf') format('truetype'),
+        url('fonts/Poppins-ExtraBold.svg#Poppins-ExtraBold') format('svg');
+    font-weight: 800;
+    font-style: normal;
+    font-display:swap;
+}
+
+@font-face {
+    font-family: 'Poppins-Thin';
+    src: url('fonts/Poppins-Thin.eot');
+    src: url('fonts/Poppins-Thin.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Poppins-Thin.woff2') format('woff2'),
+        url('fonts/Poppins-Thin.woff') format('woff'),
+        url('fonts/Poppins-Thin.ttf') format('truetype'),
+        url('fonts/Poppins-Thin.svg#Poppins-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display:swap;
+}
+
+/* ************************************************************************* */
+/* Integral-Sans */
+
+@font-face {
+    font-family: 'Int-Bold';
+    src: url(../css/fonts/Integral-CF/Integralcf-bold.otf);
+}
+
+@font-face {
+    font-family: 'Int-ExtraBold';
+    src: url(../css/fonts/Integral-CF/Integralcf-extrabold.otf);
+}
+
+@font-face {
+    font-family: 'Int-Heavy';
+    src: url(../css/fonts/Integral-CF/Integralcf-heavy.otf);
+}
+
+@font-face {
+    font-family: 'Int-Medium';
+    src: url(../css/fonts/Integral-CF/Integralcf-medium.otf);
+}
+
+@font-face {
+    font-family: 'Int-Regular';
+    src: url(../css/fonts/Integral-CF/Integralcf-regular.otf);
+}
+
+@font-face {
+    font-family: 'Int-SemiBold';
+    src: url(../css/fonts/Integral-CF/Integralcf-semibold.otf);
+}
+
+/* SF-Pro */
+
+@font-face {
+    font-family: 'Sf-Bold';
+    src: url(../css/fonts/sf-pro/SF-Pro-Text-Bold.otf);
+}
+
+@font-face {
+    font-family: 'Sf-Light';
+    src: url(../css/fonts/sf-pro/SF-Pro-Text-Light.otf);
+}
+
+@font-face {
+    font-family: 'Sf-Medium';
+    src: url(../css/fonts/sf-pro/SF-Pro-Text-Medium.otf);
+}
+
+@font-face {
+    font-family: 'Sf-Regular';
+    src: url(../css/fonts/sf-pro/SF-Pro-Text-Regular.otf);
+}
+
+@font-face {
+    font-family: 'Sf-SemiBold';
+    src: url(../css/fonts/sf-pro/SF-Pro-Text-Semibold.otf);
+}
+
+/* ************************************************ */
+
+img{max-width:100%;}
+input.text,
+input[type="text"],
+input[type="button"],
+input[type="submit"],
+input[type="email"],
+input[type="tel"],
+textarea,
+.input-checkbox {
+    outline:0;
+}
+h1,h2,h3,h4,h5,h6,p{margin:0px;}
+input:focus{outline:0;}
+textarea:focus{outline:0;}
+button:focus{outline:0;}
+a{cursor: pointer;text-decoration:none;transition:all 0.5s ease;}
+a:focus, a:hover{text-decoration:none;outline:0;}
+.TC{text-align:center;}
+.TL{text-align:left;}
+.TR{text-align:right;}
+.margin_auto{margin:auto;float:none;}
+.padding{padding:0;}
+.al{width:100%;height:100%;display:table;}
+.alm{width:100%;height:100%;display:table-cell;vertical-align:middle;}
+abbr[title] {
+    border-bottom: none !important;
+    cursor: inherit !important;
+    text-decoration: none !important;
+}
+body{
+    font-family: 'Sf-Regular';
+}
+.p_0{
+    padding: 0px;
+}
+.pl-0{
+    padding-left: 0px;
+}
+li
+{
+    list-style: none;
+}
+.main{
+    width: 100%;
+}
+.container{
+    width: 100%;
+    /* max-width: 1170px; */
+    max-width: 95%;
+    margin: 0px auto;
+}
+
+/* ******************************************************************************************** */
+.header {
+    width: 100%;
+    box-shadow: 0 2px 8px hsla(220, 68%, 12%, 0.1);
+    background-color: #fff;
+}
+
+/*=============== NAV ===============*/
+.nav
+{
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 20%; */
+}
+
+.nav-data {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo {
+    display: inline-flex;
+    align-items: center;
+    color: #000;
+    font-family: 'Int-Bold';
+    font-size: 30px;
+    transition: color 0.3s;
+}
+
+.nav-toggle {
+    position: relative;
+    width: 32px;
+    height: 32px;
+}
+
+.nav-toggle-menu,
+.nav-toggle-close {
+    font-size: 25px;
+    color: #000;
+    position: absolute;
+    display: grid;
+    place-items: center;
+    inset: 0;
+    cursor: pointer;
+    transition: opacity 0.1s, transform 0.4s;
+}
+
+.nav-toggle-close {
+    opacity: 0;
+}
+
+@media screen and (max-width: 1118px) {
+    .nav-data
+    {
+        width: 100%;
+    }
+
+    .nav-menu {
+        background-color: var(--body-color);
+        position: absolute;
+        left: 0;
+        top: 2.5rem;
+        width: 100%;
+        height: calc(100vh - 3.5rem);
+        overflow: auto;
+        padding-block: 1.5rem 4rem;
+        pointer-events: none;
+        opacity: 0;
+        /* transition: top 0.4s, opacity 0.3s; */
+    }
+
+    .nav-menu::-webkit-scrollbar {
+        width: 0.5rem;
+    }
+
+    .nav-menu::-webkit-scrollbar-thumb {
+        background-color: hsl(220, 12%, 70%);
+    }
+}
+
+.nav-link {
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Sf-Regular';
+    font-size: 16px;
+}
+
+.nav-link:hover
+{
+    color: #000;
+}
+
+.nav-menu
+{
+    display: flex;
+    align-items: center;
+}
+
+.nav-list
+{
+    margin: 0px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.show-menu {
+    opacity: 1;
+    top: 75px;
+    padding-left: 30px;
+    pointer-events: initial;
+    background-color: #F2F0F1;
+}
+
+.show-icon .nav-toggle-menu {
+    opacity: 0;
+    transform: rotate(90deg);
+}
+
+.show-icon .nav-toggle-close {
+    opacity: 1;
+    transform: rotate(90deg);
+}
+
+.search-item input
+{
+    width: 100%;
+    background-color: #F0F0F0;
+    border: none;
+    padding: 10px 20px;
+    padding-left: 45px;
+    border-radius: 7px;
+}
+
+.search-item i {
+    position: absolute;
+    padding-top: 13px;
+    padding-left: 15px;
+}
+
+.cart
+{
+    font-size: 18px;
+}
+
+.avtar
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.main-links
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.main-search
+{
+    padding: 0px 20px;
+}
+
+.main-cart-avtar
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.banner-img img
+{
+    width: 100%;
+    height: 570px;
+}
+
+.brand
+{
+    width: 100%;
+    max-height: 100px;
+    background-color: #000;
+}
+
+.brand-logo
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand-logo img
+{
+    padding: 30px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

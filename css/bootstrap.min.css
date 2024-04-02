@@ -6835,7 +6835,7 @@ a.close.disabled {
     width: 15%;
     color: #fff;
     text-align: center;
-    opacity: .5;
+    opacity: 1;
     transition: opacity .15s ease
 }
 
@@ -6851,10 +6851,10 @@ a.close.disabled {
 .carousel-control-next:hover,
 .carousel-control-prev:focus,
 .carousel-control-prev:hover {
-    color: #fff;
+    color: #111013;
     text-decoration: none;
     outline: 0;
-    opacity: .9
+    opacity: 1
 }
 
 .carousel-control-prev {

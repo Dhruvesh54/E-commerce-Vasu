@@ -335,6 +335,10 @@ li
 
 /* ******************************************************************************************** */
 /* common elements */
+::-webkit-scrollbar{width: 10px;}
+::-webkit-scrollbar-track{background: transparent;} 
+::-webkit-scrollbar-thumb{background: #888;} 
+
 .heading
 {
     text-align: center;
@@ -342,7 +346,7 @@ li
 
 .heading h3
 {
-    color: #111013;
+    color: #181C1F;
     font-family: 'Int-Bold';
     font-size: 40px;
     margin-bottom: 10px;
@@ -367,7 +371,7 @@ li
 .btn a
 {
     color: #fff;
-    background-color: #111013;
+    background-color: #181C1F;
     padding: 10px 40px;
     border-radius: 10px;
     font-size: 17px;
@@ -402,7 +406,7 @@ li
 .nav-logo {
     display: inline-flex;
     align-items: center;
-    color: #111013;
+    color: #181C1F;
     font-family: 'Int-Bold';
     font-size: 30px;
     transition: color 0.3s;
@@ -410,7 +414,7 @@ li
 
 .nav-logo:hover
 {
-    color: #111013;
+    color: #181C1F;
 }
 
 .nav-toggle {
@@ -422,7 +426,7 @@ li
 .nav-toggle-menu,
 .nav-toggle-close {
     font-size: 25px;
-    color: #111013;
+    color: #181C1F;
     position: absolute;
     display: grid;
     place-items: center;
@@ -465,7 +469,7 @@ li
 }
 
 .nav-link {
-    color: #111013;
+    color: #181C1F;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -475,7 +479,7 @@ li
 
 .nav-link:hover
 {
-    color: #111013;
+    color: #181C1F;
 }
 
 .nav-menu
@@ -580,7 +584,7 @@ li
 
 .carousel-control-prev
 {
-    color: #111013;
+    color: #181C1F;
     background-color: #fff;
     width: 50px;
     height: 100px;
@@ -595,7 +599,7 @@ li
 
 .carousel-control-next
 {
-    color: #111013;
+    color: #181C1F;
     background-color: #fff;
     width: 50px;
     height: 100px;
@@ -610,13 +614,13 @@ li
 
 .carousel-control-prev:hover
 {
-    color: #111013;
+    color: #181C1F;
     opacity: 1;
 }
 
 .carousel-control-next:hover
 {
-    color: #111013;
+    color: #181C1F;
     opacity: 1;
 }
 
@@ -640,7 +644,7 @@ li
 
 .brand-content
 {
-    background-color: #111013;
+    background-color: #181C1F;
     padding: 30px;
 }
 
@@ -692,7 +696,7 @@ li
 
 .coll-heading h3
 {
-    color: #111013;
+    color: #181C1F;
     font-family: 'Int-Bold';
     font-size: 40px;
     margin-bottom: 10px;
@@ -727,7 +731,7 @@ li
 
 .coll-card-txt h4
 {
-    color: #111013;
+    color: #181C1F;
     font-size: 22px;
     font-family: 'Sf-Bold';
     margin-bottom: 5px;
@@ -752,7 +756,7 @@ li
 
 .coll-card-price h5
 {
-    color: #111013;
+    color: #181C1F;
     font-size: 18px;
     font-family: 'Sf-SemiBold';
 }
@@ -775,11 +779,56 @@ li
     border-radius: 30px;
 }
 
+/* ***************************** facility ************************************ */
+
+.facility
+{
+    padding: 60px 0px;
+}
+
+.facility-content
+{
+    color: #fff;
+    background-color: #181C1F;
+    border-radius: 15px;
+    padding: 50px 80px;
+    text-align: center;
+}
+
+.facility-card-cnt i
+{
+    width: 100%;
+    font-size: 30px;
+    color: #e3e3e3;
+    margin-bottom: 15px;
+}
+
+.facility-card-cnt h6
+{
+    width: 100%;
+    color: #e3e3e3;
+    font-size: 20px;
+    font-family: 'Sf-Bold';
+    margin-bottom: 6px;
+}
+
+.facility-card-cnt p
+{
+    width: 250px;
+    color: #e3e3e3;
+    font-size: 14px;
+    font-family: 'Sf-Light';
+    margin: 0 auto;
+    text-align: center;
+}
+
+
 /* ***************************** wear to weding ************************************ */
 
 .wear-to-wedding
 {
-    padding: 70px 0px;
+    padding: 40px 0px;
+    padding-bottom: 100px;
 }
 
 .wedding-outfit-img img
@@ -789,7 +838,18 @@ li
     margin-bottom: 30px;
 }
 
+
 /* ***************************** different sectioin ************************************ */
+
+.different-section
+{
+    padding: 70px 0px;
+}
+
+.diff-sec-cnt
+{
+    margin-bottom: 30px;
+}
 
 .diff-sec-img img
 {
@@ -804,7 +864,7 @@ li
 .diff-sec-txt
 {
     position: absolute;
-    bottom: 30px;
+    bottom: 60px;
     left: 50px;
     z-index: 10;
 }
@@ -823,21 +883,84 @@ li
 
 .diff-btn a
 {
-    color: #111013;
+    color: #181C1F;
     background-color: #fff;
 }
 
+/* ************************** happy customer slider *************************** */
 
+.happy-customer
+{
+    /* padding: 30px 0px; */
+    padding-bottom: 70px;
+}
 
+.happy-customer-head
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
 
+.customer-slider-arrow button
+{
+    border: none;
+    background: none;
+}
 
+.customer-slider-arrow i
+{
+    font-size: 25px;
+    padding-right: 10px;
+}
 
+.happy-customer-head h3
+{
+    text-align: left;
+}
 
+.customer-slider-cnt
+{
+    padding: 30px;
+    margin: 0px 10px;
+    border: 1px solid rgb(0, 0, 0, 0.2);
+    border-radius: 15px;
+}
 
+.customer-five-star img
+{
+    width: 120px;
+    margin-bottom: 10px;
+}
 
+.customer-name-tick
+{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 10px;
+}
 
+.customer-name-tick h5
+{
+    color: #181C1F;
+    font-size: 20px;
+    font-family: 'Sf-Bold';
+}
 
+.name-blue-tick img
+{
+    width: 20px;
+}
 
+.customer-paragraph p
+{
+    color: #181C1F;
+    font-size: 15px;
+    font-family: 'Sf-Light';
+
+}
 
 
 

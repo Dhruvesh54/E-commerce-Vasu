@@ -12,7 +12,7 @@ const showMenu = (toggleId, navId) =>{
  
  showMenu('nav-toggle','nav-menu')
 
-//  ========================= slider
+//  ========================= slider =========================
 
 $(document).ready(function () {
     $(".happy-customer-slider").slick({
@@ -68,13 +68,17 @@ $(document).ready(function () {
     });
 });
 
+// ========================= sign up dialog box close =========================
 
+const dialog = document.getElementById("myDialog"); 
 
+function showDialog() { 
+  dialog.show(); 
+} 
 
-
-
-
-
+function closeDialog() { 
+  dialog.close(); 
+} 
 
 
 

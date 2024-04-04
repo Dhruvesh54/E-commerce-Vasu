@@ -377,7 +377,57 @@ li
     font-size: 17px;
 }
 
+/* ******************************************************************************************** */
+.sign-up-offer
+{
+    width: 100%;
+    color: #fff;
+    background-color: #181C1F;
+    text-align: center;
+    padding: 8px 0px;
+}
 
+.sign-up-offer-content
+{
+    display: flex;
+    justify-content: center;
+}
+
+.sign-up-offer-line p
+{
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Sf-Light';
+    letter-spacing: 0.3px;
+}
+
+.sign-up-offer-line a
+{
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Sf-Light';
+    letter-spacing: 0.3px;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 3px;
+}
+
+.sign-up-offer-line a:hover
+{
+    color: #20A0FD;
+    border-bottom: 1px solid #20A0FD;
+}
+
+.sigm-up-offer-close-btn
+{
+    display: flex;
+    align-items: center;
+}
+
+.sigm-up-offer-close-btn button
+{
+    position: absolute;
+    right: 40px;
+}
 
 /* ******************************************************************************************** */
 .header {

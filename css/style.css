@@ -255,28 +255,28 @@
 /* SF-Pro */
 
 @font-face {
-    font-family: 'Sf-Bold';
-    src: url(../css/fonts/sf-pro/SF-Pro-Text-Bold.otf);
+    font-family: 'St-Black';
+    src: url(../css/fonts/satoshi/Satoshi-Black.otf);
 }
 
 @font-face {
-    font-family: 'Sf-Light';
-    src: url(../css/fonts/sf-pro/SF-Pro-Text-Light.otf);
+    font-family: 'St-Bold';
+    src: url(../css/fonts/satoshi/Satoshi-Bold.otf);
 }
 
 @font-face {
-    font-family: 'Sf-Medium';
-    src: url(../css/fonts/sf-pro/SF-Pro-Text-Medium.otf);
+    font-family: 'St-Regular';
+    src: url(../css/fonts/satoshi/Satoshi-Light.otf);
 }
 
 @font-face {
-    font-family: 'Sf-Regular';
-    src: url(../css/fonts/sf-pro/SF-Pro-Text-Regular.otf);
+    font-family: 'St-Medium';
+    src: url(../css/fonts/satoshi/Satoshi-Medium.otf);
 }
 
 @font-face {
-    font-family: 'Sf-SemiBold';
-    src: url(../css/fonts/sf-pro/SF-Pro-Text-Semibold.otf);
+    font-family: 'St-Regular';
+    src: url(../css/fonts/satoshi/Satoshi-Regular.otf);
 }
 
 /* ************************************************ */
@@ -311,7 +311,7 @@ abbr[title] {
     text-decoration: none !important;
 }
 body{
-    font-family: 'Sf-Regular';
+    font-family: 'St-Regular';
 }
 .p_0{
     padding: 0px;
@@ -355,7 +355,7 @@ li
 .heading h5
 {
     color: #a4a4a4;
-    font-family: 'Sf-Regular';
+    font-family: 'St-Regular';
     font-size: 18px;
     margin-bottom: 10px;
 }
@@ -397,7 +397,7 @@ li
 {
     color: #fff;
     font-size: 15px;
-    font-family: 'Sf-Light';
+    font-family: 'St-Regular';
     letter-spacing: 0.3px;
 }
 
@@ -405,7 +405,7 @@ li
 {
     color: #fff;
     font-size: 15px;
-    font-family: 'Sf-Light';
+    font-family: 'St-Regular';
     letter-spacing: 0.3px;
     border-bottom: 1px solid #fff;
     padding-bottom: 3px;
@@ -417,16 +417,19 @@ li
     border-bottom: 1px solid #20A0FD;
 }
 
-.sigm-up-offer-close-btn
+.sign-up-offer-close-btn
 {
     display: flex;
     align-items: center;
 }
 
-.sigm-up-offer-close-btn button
+.sign-up-offer-close-btn button
 {
+    color: #fff;
     position: absolute;
     right: 40px;
+    border: none;
+    background: none;
 }
 
 /* ******************************************************************************************** */
@@ -552,7 +555,7 @@ li
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: 'Sf-Regular';
+    font-family: 'St-Regular';
     font-size: 16px;
 }
 
@@ -784,7 +787,7 @@ li
 .coll-heading h5
 {
     color: #a4a4a4;
-    font-family: 'Sf-Regular';
+    font-family: 'St-Regular';
     font-size: 18px;
     margin-bottom: 10px;
 }
@@ -812,7 +815,7 @@ li
 {
     color: #181C1F;
     font-size: 22px;
-    font-family: 'Sf-Bold';
+    font-family: 'St-Bold';
     margin-bottom: 5px;
 }
 
@@ -821,7 +824,7 @@ li
     width: 300px;
     color: #a4a4a4;
     font-size: 15px;
-    font-family: 'Sf-Regular';
+    font-family: 'St-Regular';
     line-height: 20px;
     margin-bottom: 5px;
 }
@@ -837,7 +840,7 @@ li
 {
     color: #181C1F;
     font-size: 18px;
-    font-family: 'Sf-SemiBold';
+    font-family: 'St-Bold';
 }
 
 .coll-card-price h6
@@ -845,7 +848,7 @@ li
     width: 30px;
     color: rgb(17, 16, 19, 0.5);
     font-size: 18px;
-    font-family: 'Sf-SemiBold';
+    font-family: 'St-Bold';
     margin-top: 3px;
 }
 
@@ -887,7 +890,7 @@ li
     width: 100%;
     color: #e3e3e3;
     font-size: 20px;
-    font-family: 'Sf-Bold';
+    font-family: 'St-Bold';
     margin-bottom: 6px;
 }
 
@@ -896,7 +899,7 @@ li
     width: 250px;
     color: #e3e3e3;
     font-size: 14px;
-    font-family: 'Sf-Light';
+    font-family: 'St-Regular';
     margin: 0 auto;
     text-align: center;
 }
@@ -951,7 +954,7 @@ li
 .diff-sec-txt h3
 {
     color: #fff;
-    font-family: 'Sf-Bold';
+    font-family: 'St-Bold';
     margin-bottom: 10px;
 }
 
@@ -1025,7 +1028,7 @@ li
 {
     color: #181C1F;
     font-size: 20px;
-    font-family: 'Sf-Bold';
+    font-family: 'St-Bold';
 }
 
 .name-blue-tick img
@@ -1037,7 +1040,7 @@ li
 {
     color: #181C1F;
     font-size: 15px;
-    font-family: 'Sf-Light';
+    font-family: 'St-Regular';
 
 }
 
@@ -1061,7 +1064,7 @@ li
 {
     color: #606060;
     font-size: 17px;
-    font-family: 'Sf-Light';
+    font-family: 'St-Regular';
     margin-bottom: 15px;
 }
 
@@ -1086,7 +1089,7 @@ li
     color: #000;
     letter-spacing: 2px;
     font-size: 18px;
-    font-family: 'Sf-SemiBold';
+    font-family: 'St-Bold';
     margin-bottom: 20px;
 }
 
@@ -1099,7 +1102,7 @@ li
 {
     color: #606060;
     font-size: 16px;
-    font-family: 'Sf-Light';
+    font-family: 'St-Regular';
 }
 
 .copyright
@@ -1120,7 +1123,7 @@ li
 {
     color: #cfcfcf;
     font-size: 15px;
-    font-family: 'Sf-Light';
+    font-family: 'St-Regular';
     letter-spacing: 0.5px;
 }
 
@@ -1136,7 +1139,7 @@ li
     color: #cfcfcf;
     margin-left: 30px;
     font-size: 15px;
-    font-family: 'Sf-Light';
+    font-family: 'St-Regular';
 }
 
 .copyright-terms-condition a:hover
@@ -1145,6 +1148,131 @@ li
     text-decoration: underline;
 }
 
+/* ==================================================================================================================================================================================================================== */
+
+.product-details
+{
+    padding: 30px 0px;
+    padding-bottom: 50px;
+}
+
+.product-path h6
+{
+    color: #606060;
+    font-size: 15px;
+    font-family: 'St-Regular';
+
+    display: flex;
+    align-items: center;
+}
+
+.product-path span
+{
+    color: #000;
+    font-family: 'St-Bold';
+}
+
+.product-img
+{
+    display: flex;
+}
+
+.product-child-img
+{
+    width: 140px;
+}
+
+.product-child-img img
+{
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.product-perent-img
+{
+    width: 450px;
+    margin-left: 15px;
+}
+
+.product-perent-img img
+{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.product-name h3
+{
+    color: #181C1F;
+    font-size: 35px;
+    font-family: 'Int-Bold';
+    margin-bottom: 10px;
+}
+
+.product-rating
+{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.product-rating-txt h6
+{
+    color: #181C1F;
+    font-size: 15px;
+    font-family: 'St-Regular';
+}
+
+.product-rating-txt span
+{
+    color: #919191;
+}
+
+.product-price
+{
+    margin-bottom: 10px;
+}
+
+.product-main-price
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.product-main-price h5
+{
+    color: #181C1F;
+    font-size: 25px;
+    font-family: 'St-Bold';
+}
+
+.product-main-price h6
+{
+    width: 30px;
+    color: #606060;
+    font-size: 20px;
+    font-family: 'St-Bold';
+    margin-right: 10px;
+}
+
+.product-price-discount p
+{
+    max-width: 50px;
+    color: #FF3333;
+    background-color: rgb(255, 51, 51, 0.1);
+    font-size: 12px;
+    padding: 5px 8px;
+    border-radius: 30px;
+}
+
+
+.product-rating img
+{
+    width: 100px;
+}
 
 
 
@@ -1154,11 +1282,47 @@ li
 
 
 
+.product-item{
+    position: relative;
+}
+.product-item input
+{
+    width: 150px;
+    background-color: #F0F0F0;
+    border: none;
+    padding: 10px 20px;
+    padding-left: 45px;
+    padding-right: 45px;
+    border-radius: 7px;
+}
 
+.product-item .btn-minus {
+    border: none;
+    background: none;
+    position: absolute;
+    left: 15px;
+    bottom: 10px;
+}
 
+.product-item .btn-plus {
+    border: none;
+    background: none;
+    position: absolute;
+    left: 110px;
+    bottom: 10px;
+}
 
+.product-item i
+{
+    color: #000;
+}
 
-
+::placeholder
+{
+    text-align: center;
+    color: #000;
+    font-size: 18px;
+}
 
 
 

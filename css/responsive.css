@@ -15,7 +15,7 @@
 }
 
 @media (max-width: 767px) {
-
+    
 }
 
 
@@ -59,9 +59,117 @@
         padding: 0;
     }
 
-    .nav-link:hover {
-        background-color: initial;
+}
+
+
+@media screen and (max-width: 1118px) {
+    .nav-mobile-view
+    {
+        display: block;
     }
 
+    .nav-only-mobile
+    {
+        display: flex;
+        align-items: center;
+    }
+
+    .nav-responsive-view
+    {
+        display: flex;
+        align-items: center;
+    }
+
+    .main-links
+    {
+        display: block;
+
+        position: absolute;
+        top: 50px;
+        left: 60px;
+    }
+
+    .nav-link
+    {
+        color: #181C1F;
+        font-size: 25px;
+        font-family: 'Int-SemiBold';
+    }
+
+    .nav-menu
+    {
+        display: block;
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

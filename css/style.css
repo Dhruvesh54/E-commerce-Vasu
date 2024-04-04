@@ -334,10 +334,61 @@ li
 }
 
 /* ******************************************************************************************** */
+/* common elements */
+::-webkit-scrollbar{width: 10px;}
+::-webkit-scrollbar-track{background: transparent;} 
+::-webkit-scrollbar-thumb{background: #888;} 
+
+.heading
+{
+    text-align: center;
+}
+
+.heading h3
+{
+    color: #181C1F;
+    font-family: 'Int-Bold';
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.heading h5
+{
+    color: #a4a4a4;
+    font-family: 'Sf-Regular';
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.btn
+{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+    margin: 0 auto;
+}
+
+.btn a
+{
+    color: #fff;
+    background-color: #181C1F;
+    padding: 10px 40px;
+    border-radius: 10px;
+    font-size: 17px;
+}
+
+
+
+/* ******************************************************************************************** */
 .header {
     width: 100%;
     box-shadow: 0 2px 8px hsla(220, 68%, 12%, 0.1);
     background-color: #fff;
+}
+
+.nav-only-mobile
+{
+    display: none;
 }
 
 /*=============== NAV ===============*/
@@ -360,10 +411,15 @@ li
 .nav-logo {
     display: inline-flex;
     align-items: center;
-    color: #000;
+    color: #181C1F;
     font-family: 'Int-Bold';
     font-size: 30px;
     transition: color 0.3s;
+}
+
+.nav-logo:hover
+{
+    color: #181C1F;
 }
 
 .nav-toggle {
@@ -375,7 +431,7 @@ li
 .nav-toggle-menu,
 .nav-toggle-close {
     font-size: 25px;
-    color: #000;
+    color: #181C1F;
     position: absolute;
     display: grid;
     place-items: center;
@@ -415,10 +471,33 @@ li
     .nav-menu::-webkit-scrollbar-thumb {
         background-color: hsl(220, 12%, 70%);
     }
+
+    .nav-dektop
+    {
+        display: none;
+    }
+
+}
+
+.nav-mobile-view
+{
+    display: none;
+}
+
+.nav-desktop-view
+{
+    display: flex;
+    align-items: center;
+}
+
+.nav-responsive-view
+{
+    display: flex;
+    gap: 30px;
 }
 
 .nav-link {
-    color: #000;
+    color: #181C1F;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -428,7 +507,7 @@ li
 
 .nav-link:hover
 {
-    color: #000;
+    color: #181C1F;
 }
 
 .nav-menu
@@ -452,6 +531,7 @@ li
     padding-left: 30px;
     pointer-events: initial;
     background-color: #F2F0F1;
+    z-index: 100;
 }
 
 .show-icon .nav-toggle-menu {
@@ -513,17 +593,69 @@ li
     gap: 20px;
 }
 
-.banner-img img
+.banner
+{
+    padding: 30px;
+}
+
+.carousel-inner
+{
+    border-radius: 10px;
+}
+
+.carousel-item img
 {
     width: 100%;
-    height: 570px;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.carousel-control-prev
+{
+    color: #181C1F;
+    background-color: #fff;
+    width: 50px;
+    height: 100px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    justify-content: left;
+    padding-left: 20px;
+    margin: auto 0;
+    opacity: 1;
+}
+
+.carousel-control-next
+{
+    color: #181C1F;
+    background-color: #fff;
+    width: 50px;
+    height: 100px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: flex;
+    justify-content: left;
+    padding-left: 20px;
+    margin: auto 0;
+    opacity: 1;
+}
+
+.carousel-control-prev:hover
+{
+    color: #181C1F;
+    opacity: 1;
+}
+
+.carousel-control-next:hover
+{
+    color: #181C1F;
+    opacity: 1;
 }
 
 .brand
 {
     width: 100%;
     max-height: 100px;
-    background-color: #000;
 }
 
 .brand-logo
@@ -538,68 +670,429 @@ li
     padding: 30px 0px;
 }
 
+.brand-content
+{
+    background-color: #181C1F;
+    padding: 30px;
+}
+
+.brand-track {
+    /* position: absolute; */
+    /* will-change: transform; */
+    white-space: nowrap;
+    animation: marquee 8s linear infinite;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* .brand-track p
+{
+    color: #fff;
+    font-family: 'Int-Regular';
+    letter-spacing: 2px;
+    font-size: 40px;
+} */
+
+.brand-track img
+{
+    color: #fff;
+    font-family: 'Int-Regular';
+    letter-spacing: 2px;
+    font-size: 40px;
+}
+
+/* @keyframes marquee {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+} */
+
+/* *************************************** New Collection ********************************************* */
+
+.new-collection
+{
+    padding: 70px 0px;
+}
+
+.coll-heading
+{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.coll-heading h3
+{
+    color: #181C1F;
+    font-family: 'Int-Bold';
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.coll-heading h5
+{
+    color: #a4a4a4;
+    font-family: 'Sf-Regular';
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.coll-card-cnt
+{
+    margin-bottom: 30px;
+}
+
+.coll-card-cnt img
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.coll-card-txt
+{
+    text-align: left;
+}
+
+.coll-card-txt h4
+{
+    color: #181C1F;
+    font-size: 22px;
+    font-family: 'Sf-Bold';
+    margin-bottom: 5px;
+}
+
+.coll-card-txt h6
+{
+    width: 300px;
+    color: #a4a4a4;
+    font-size: 15px;
+    font-family: 'Sf-Regular';
+    line-height: 20px;
+    margin-bottom: 5px;
+}
+
+.coll-card-price
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.coll-card-price h5
+{
+    color: #181C1F;
+    font-size: 18px;
+    font-family: 'Sf-SemiBold';
+}
+
+.coll-card-price h6
+{
+    width: 30px;
+    color: rgb(17, 16, 19, 0.5);
+    font-size: 18px;
+    font-family: 'Sf-SemiBold';
+    margin-top: 3px;
+}
+
+.coll-card-price-discount p
+{
+    color: #FF3333;
+    background-color: rgb(255, 51, 51, 0.1);
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 30px;
+}
+
+/* ***************************** facility ************************************ */
+
+.facility
+{
+    padding: 60px 0px;
+}
+
+.facility-content
+{
+    color: #fff;
+    background-color: #181C1F;
+    border-radius: 15px;
+    padding: 50px 80px;
+    text-align: center;
+}
+
+.facility-card-cnt i
+{
+    width: 100%;
+    font-size: 30px;
+    color: #e3e3e3;
+    margin-bottom: 15px;
+}
+
+.facility-card-cnt h6
+{
+    width: 100%;
+    color: #e3e3e3;
+    font-size: 20px;
+    font-family: 'Sf-Bold';
+    margin-bottom: 6px;
+}
+
+.facility-card-cnt p
+{
+    width: 250px;
+    color: #e3e3e3;
+    font-size: 14px;
+    font-family: 'Sf-Light';
+    margin: 0 auto;
+    text-align: center;
+}
 
 
+/* ***************************** wear to weding ************************************ */
+
+.wear-to-wedding
+{
+    padding: 40px 0px;
+    padding-bottom: 100px;
+}
+
+.wedding-outfit-img img
+{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
 
 
+/* ***************************** different sectioin ************************************ */
 
+.different-section
+{
+    padding: 70px 0px;
+}
 
+.diff-sec-cnt
+{
+    margin-bottom: 30px;
+}
 
+.diff-sec-img img
+{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
 
+    position: relative;
+}
 
+.diff-sec-txt
+{
+    position: absolute;
+    bottom: 60px;
+    left: 50px;
+    z-index: 10;
+}
 
+.diff-sec-txt h3
+{
+    color: #fff;
+    font-family: 'Sf-Bold';
+    margin-bottom: 10px;
+}
 
+.diff-btn
+{
+    padding: 0;
+}
 
+.diff-btn a
+{
+    color: #181C1F;
+    background-color: #fff;
+}
 
+/* ************************** happy customer slider *************************** */
 
+.happy-customer
+{
+    /* padding: 30px 0px; */
+    padding-bottom: 70px;
+}
 
+.happy-customer-head
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
 
+.customer-slider-arrow button
+{
+    border: none;
+    background: none;
+}
 
+.customer-slider-arrow i
+{
+    font-size: 25px;
+    padding-right: 10px;
+}
 
+.happy-customer-head h3
+{
+    text-align: left;
+}
 
+.customer-slider-cnt
+{
+    padding: 30px;
+    margin: 0px 10px;
+    border: 1px solid rgb(0, 0, 0, 0.2);
+    border-radius: 15px;
+}
 
+.customer-five-star img
+{
+    width: 120px;
+    margin-bottom: 10px;
+}
 
+.customer-name-tick
+{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 10px;
+}
 
+.customer-name-tick h5
+{
+    color: #181C1F;
+    font-size: 20px;
+    font-family: 'Sf-Bold';
+}
 
+.name-blue-tick img
+{
+    width: 20px;
+}
 
+.customer-paragraph p
+{
+    color: #181C1F;
+    font-size: 15px;
+    font-family: 'Sf-Light';
 
+}
 
+/* ******************************* footer *********************************** */
 
+.footer
+{
+    background-color: #F0F0F0;
+    padding: 50px 0px;
+}
 
+.footer-paragraph h3
+{
+    color: #181C1F;
+    font-size: 30px;
+    font-family: 'Int-Bold';
+    margin-bottom: 15px;
+}
 
+.footer-paragraph p
+{
+    color: #606060;
+    font-size: 17px;
+    font-family: 'Sf-Light';
+    margin-bottom: 15px;
+}
 
+.footer-social-media i
+{
+    color: #181C1F;
+    font-size: 22px;
+    margin-right: 10px;
+}
 
+.footer-links
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
 
+.footer-links h5
+{
+    color: #000;
+    letter-spacing: 2px;
+    font-size: 18px;
+    font-family: 'Sf-SemiBold';
+    margin-bottom: 20px;
+}
 
+.footer-links li
+{
+    margin-bottom: 5px;
+}
 
+.footer-links a
+{
+    color: #606060;
+    font-size: 16px;
+    font-family: 'Sf-Light';
+}
 
+.copyright
+{
+    color: #cfcfcf;
+    background-color: #181C1F;
+    padding: 20px 0px;
+}
 
+.copyright-content
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.copyright-content h6
+{
+    color: #cfcfcf;
+    font-size: 15px;
+    font-family: 'Sf-Light';
+    letter-spacing: 0.5px;
+}
 
+.copyright-terms-condition ul
+{
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
 
+.copyright-terms-condition a
+{
+    color: #cfcfcf;
+    margin-left: 30px;
+    font-size: 15px;
+    font-family: 'Sf-Light';
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.copyright-terms-condition a:hover
+{
+    color: #20A0FD;
+    text-decoration: underline;
+}
 
 
 

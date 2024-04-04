@@ -1,3 +1,27 @@
+/* temparory */
+
+.temparory-link
+{
+    padding: 100px 0px;
+}
+
+.temparory-link-cnt a
+{
+    color: #181C1F;
+    font-size: 20px;
+    font-family: 'Int-Bold';
+    border: 2px solid #181C1F;
+    padding: 20px 40px;
+}
+
+
+
+
+
+
+
+
+/* =================== */
 @font-face {
     font-family: 'Poppins-ExtraBoldItalic';
     src: url('fonts/Poppins-ExtraBoldItalic.eot');
@@ -1268,19 +1292,88 @@ li
     border-radius: 30px;
 }
 
-
 .product-rating img
 {
     width: 100px;
 }
 
+.product-paragraph p
+{
+    color: #181C1F;
+    font-size: 18px;
+    font-family: 'St-Regular';
+}
 
+.product-color h5
+{
+    color: #181C1F;
+    font-size: 20px;
+    font-family: 'St-Bold';
+    margin-bottom: 10px;
+}
 
+.product-color-main-boxes
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
 
+.product-color-box-one
+{
+    width: 30px;
+    height: 30px;
+    background-color: #4F4631;
+    border-radius: 50%;
+}
 
+.product-color-box-two
+{
+    width: 30px;
+    height: 30px;
+    background-color: #314F4A;
+    border-radius: 50%;
+}
 
+.product-color-box-three
+{
+    width: 30px;
+    height: 30px;
+    background-color: #31344F;
+    border-radius: 50%;
+}
 
+.product-size h5
+{
+    color: #181C1F;
+    font-size: 20px;
+    font-family: 'St-Bold';
+    margin-bottom: 10px;
+}
 
+.product-size-box
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.product-size-box h6
+{
+    color: #606060;
+    background-color: #F0F0F0;
+    font-size: 16px;
+    font-family: 'St-Regular';
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.product-size-box .active
+{
+    color: #f0f0f0;
+    background-color: #181C1F;
+}
 
 .product-item{
     position: relative;
@@ -1324,11 +1417,20 @@ li
     font-size: 18px;
 }
 
+.product-add-to-cart
+{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
 
-
-
-
-
+.product-add-btn a
+{
+    color: #f0f0f0;
+    background-color: #181C1F;
+    padding: 10px 200px;
+    border-radius: 10px;
+}
 
 
 

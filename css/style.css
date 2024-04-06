@@ -14,13 +14,6 @@
     padding: 20px 40px;
 }
 
-
-
-
-
-
-
-
 /* =================== */
 @font-face {
     font-family: 'Poppins-ExtraBoldItalic';
@@ -399,6 +392,12 @@ li
     padding: 10px 40px;
     border-radius: 10px;
     font-size: 17px;
+}
+
+ul
+{
+    margin: 0;
+    padding: 0;
 }
 
 /* ******************************************************************************************** */
@@ -1599,6 +1598,137 @@ li
 {
     margin-bottom: 40px;
 }
+
+/* ==================================================================================================================================================================================================================== */
+.category-main
+{
+    padding: 30px 0px;
+}
+
+.category-card
+{
+    padding: 30px 0px;
+}
+
+.category-card-head
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.category-card-head h3
+{
+    color: #181C1F;
+    font-size: 30px;
+    font-family: 'St-Black';
+}
+
+.category-card-head h5
+{
+    color: #606060;
+    font-size: 15px;
+}
+
+.category-sorting select
+{
+    color: #181C1F;
+    font-size: 15px;
+    font-family: 'St-Bold';
+    border: none;
+}
+
+.category-pagination
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.category-prev-btn a
+{
+    color: #181C1F;
+    font-size: 16px;
+    font-family: 'St-Medium';
+    border: 1px solid rgb(0, 0, 0, 0.2);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.category-next-btn a
+{
+    color: #181C1F;
+    font-size: 16px;
+    font-family: 'St-Medium';
+    border: 1px solid rgb(0, 0, 0, 0.2);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.category-page-number
+{
+    display: flex;
+    align-items: center;
+}
+
+.category-page-number ul
+{
+    display: flex;
+    /* gap: 30px; */
+}
+
+.category-page-number a
+{
+    color: #808080;
+    font-size: 16px;
+    font-family: 'St-Regular';
+    padding: 8px 15px;
+}
+
+.page-no.active
+{
+    color: #000;
+    background-color: #f0f0f0;
+    padding: 8px 15px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

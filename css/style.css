@@ -1773,7 +1773,7 @@ ul
 .style-cnt
 {
     margin-top: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 /* =============================================== */
 
@@ -1921,7 +1921,7 @@ ul
 
 .filter-apply-btn
 {
-    margin-top: 30px;
+    margin-top: 20px;
     display: flex;
     justify-content: center;
 }
@@ -1935,6 +1935,7 @@ ul
     font-family: 'St-Regular';
     padding: 10px 30px;
     border-radius: 10px;
+    letter-spacing: 1px;
 }
 
 .filter-apply-btn a:hover
@@ -1942,57 +1943,6 @@ ul
     color: #181C1F;
     background-color: transparent;
     border: 1px solid #181C1F;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-::selection {
-    color: #fff;
-    background: #17a2b8;
 }
 
 .wrapper {
@@ -2016,26 +1966,40 @@ header p {
 .price-input {
     width: 100%;
     display: flex;
-    margin: 30px 0 35px;
+    margin: 0px 0 20px;
 }
 
 .price-input .field {
+    /* display: flex; */
+    width: 100%;
+    /* height: 45px; */
+    align-items: center;
+}
+
+/* .price-input .field {
     display: flex;
     width: 100%;
     height: 45px;
     align-items: center;
-}
+} */
 
 .field input {
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
     outline: none;
-    font-size: 19px;
-    margin-left: 12px;
+    padding: 5px 0px;
+    font-size: 16px;
     border-radius: 5px;
     text-align: center;
     border: 1px solid #999;
     -moz-appearance: textfield;
+}
+
+.field span
+{
+    color: #181C1F;
+    font-size: 16px;
+    font-family: 'St-Medium';
 }
 
 input[type="number"]::-webkit-outer-spin-button,
@@ -2044,7 +2008,11 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 
 .price-input .separator {
-    width: 130px;
+    /* width: 2px;
+    height: 60px; */
+    margin: 15px 20px 0px;
+    color: #878787;
+    /* background: rgb(0, 0, 0, 0.2); */
     display: flex;
     font-size: 19px;
     align-items: center;
@@ -2052,7 +2020,7 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 
 .price-slider {
-    height: 5px;
+    height: 4px;
     position: relative;
     background: #ddd;
     border-radius: 5px;
@@ -2060,11 +2028,11 @@ input[type="number"]::-webkit-inner-spin-button {
 
 .price-slider .progress {
     height: 100%;
-    left: 25%;
-    right: 25%;
+    left: 11%;
+    right: 39%;
     position: absolute;
     border-radius: 5px;
-    background: #17a2b8;
+    background: #181C1F;
 }
 
 .range-input {
@@ -2083,21 +2051,23 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 
 input[type="range"]::-webkit-slider-thumb {
-    height: 17px;
-    width: 17px;
+    height: 15px;
+    width: 15px;
     border-radius: 50%;
-    background: #17a2b8;
+    background: #181C1F;
     pointer-events: auto;
+    cursor: pointer;
     -webkit-appearance: none;
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
 }
 
 input[type="range"]::-moz-range-thumb {
-    height: 17px;
-    width: 17px;
+    height: 15px;
+    width: 15px;
     border: none;
+    cursor: pointer;
     border-radius: 50%;
-    background: #17a2b8;
+    background: #181C1F;
     pointer-events: auto;
     -moz-appearance: none;
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);

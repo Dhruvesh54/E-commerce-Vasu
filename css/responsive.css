@@ -169,13 +169,29 @@
 
     .product-item input{padding: 10px 20px;}
     .product-add-btn a{padding: 10px 34px;}
-
+    .cart-item-name h4{font-size: 20px;}
+    .cart-item-name h6{font-size: 15px;}
+    .cart-item-name h3{font-size: 21px;}
+    .cart-item-calc input{width: 115px;}
+    .cart-item-calc .btn-plus{left: 10px;}
+    .cart-item-calc .btn-plus{left: 80px;}
+    .cart-payment-head h3{font-size: 23px;}
+    .cart-pay-price h5{font-size: 18px;}
+    .cart-pay-price h4{font-size: 18px;}
+    .cart-pay-total h5{font-size: 18px;}
+    .cart-pay-total h4{font-size: 22px;}
+    .cart-promo-input input{width: 100%;}
+    .cart-promo-input .btn-minus{font-size: 20px; left: 15px; bottom: 5px;}
+    .cart-promo-input ::placeholder { padding-left: 0px; font-size: 18px; }
+    .cart-promo-btn.btn,.cart-promo-btn a{width: 100%;}
+    .cart-check-out a{padding: 15px 55px; text-align: center;}
 
 }
 
 @media (max-width: 767px) {
 
-
+    .nav-logo{font-size: 25px;}
+    .banner{padding: 20px;}
 
 }
 

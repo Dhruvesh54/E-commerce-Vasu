@@ -953,13 +953,18 @@ ul
 
 .diff-sec-cnt
 {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+}
+
+.different-section-content .col-lg-8, .col-lg-4
+{
+    padding: 0px 10px;
 }
 
 .diff-sec-img img
 {
     width: 100%;
-    height: 500px;
+    height: 350px;
     object-fit: cover;
     border-radius: 10px;
 
@@ -969,7 +974,7 @@ ul
 .diff-sec-txt
 {
     position: absolute;
-    bottom: 60px;
+    bottom: 50px;
     left: 50px;
     z-index: 10;
 }
@@ -979,17 +984,21 @@ ul
     color: #fff;
     font-family: 'St-Bold';
     margin-bottom: 10px;
+    margin-left: 5px;
 }
 
 .diff-btn
 {
     padding: 0;
+    display: flex;
+    justify-content: left;
 }
 
 .diff-btn a
 {
     color: #181C1F;
     background-color: #fff;
+    padding: 7px 20px;
 }
 
 /* ************************** happy customer slider *************************** */
@@ -1635,7 +1644,7 @@ ul
 {
     color: #181C1F;
     font-size: 15px;
-    font-family: 'St-Bold';
+    font-family: 'St-Medium';
     border: none;
 }
 
@@ -1763,7 +1772,7 @@ ul
 .filter-style button
 {
     color: #181C1F;
-    font-size: 22px;
+    font-size: 20px;
     font-family: 'St-Bold';
 }
 

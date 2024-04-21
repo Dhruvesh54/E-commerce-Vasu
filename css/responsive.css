@@ -195,7 +195,7 @@
 
     .heading h3{font-size: 35px;}
     .heading h5{font-size: 17px;}
-    .nav-logo{font-size: 25px;}
+    .nav-logo{font-size: 30px;}
     .banner{padding: 20px;}
     .carousel-control-prev{width: 30px; height: 60px; padding-left: 12px;}
     .carousel-control-next{width: 30px; height: 60px; padding-left: 12px;}
@@ -227,13 +227,103 @@
 }
 
 @media screen and (max-width:575px) {
+    .page-mobile-view{display: block;}
+    .category-page-number{display: none;}
 
+    .heading h3{font-size: 32px;}
+    .heading h5{font-size: 16px;}
+    .product-name h3{font-size: 27px;}
+    .product-main-price h5{font-size: 22px;}
+    .product-paragraph p{font-size: 17px;}
+    .product-item input{width: 130px; padding: 10px 20px;}
+    .product-item .btn-minus{left: 10px; bottom: 7px;}
+    .product-item .btn-plus{left: 95px; bottom: 7px;}
+    .product-add-btn a{padding: 10px 75px;}
+    .coll-card-txt h4{font-size: 20px;}
+    .coll-card-txt h6{width: 100%; font-size: 14px;}
+    .filter-apply-btn a{font-size: 15px;}
+    .category-sorting{width: 215px;}
+    .cart-head h3{font-size: 32px;}
+    .cart-item-name h4{font-size: 21px;}
+    .cart-item-name h6{font-size: 13px;}
+    .cart-item-name h3{font-size: 22px; margin-top: 6px;}
+    .item-name-delete i{font-size: 18px;}
+    .cart-item-calc input{width: 110px; padding: 10px 20px;}
+    .cart-item-calc .btn-minus{left: 10px; bottom: 7px;}
+    .cart-item-calc .btn-plus{left: 80px; bottom: 7px;}
+    .cart-pay-price h5, .cart-pay-price h4, .cart-pay-total h5{font-size: 18px;}
+    .cart-pay-total h4{font-size: 22px;}
+    .cart-pay-total{margin-bottom: 20px;}
+    .cart-promo-btn a{padding: 10px 0px;}
+    .product-child-img img{margin-bottom: 10px; border-radius: 10px;}
 
 
 }
 
 
 @media screen and (max-width:480px) {
+    .btn{padding: 15px 0px;}
+    .rv-btn-text{display: none;}
+    .rv-btn-icon{display: block;}
+
+    .nav-logo{font-size: 25px;}
+    .nav-toggle-menu, .nav-toggle-close{font-size: 22px;}
+    .avtar{max-width: 35px; height: 35px;}
+    .nav-responsive-view{gap: 15px;}
+    .banner{padding: 10px;}
+    .carousel-control-prev, .carousel-control-next{display: none;}
+    .new-collection{padding: 30px 0px;}
+    .heading h3{font-size: 25px; margin-bottom: 7px;}
+    .heading h5{font-size: 14px;}
+    .coll-heading{padding-bottom: 20px;}
+    .coll-card-txt h4{font-size: 18px;}
+    .coll-card-txt h6{font-size: 13px;line-height: 15px;}
+    .coll-card-price h5{font-size: 17px;}
+    .facility{padding: 30px 0px;}
+    .different-section{padding: 30px 0px;}
+    .wear-to-wedding{padding: 30px 0px;}
+    .happy-customer-head h3{font-size: 23px;}
+    .customer-slider-arrow i{font-size: 21px;}
+    .copyright-terms-condition ul{flex-wrap: wrap; justify-content: center; gap: 0px;}
+    .copyright-terms-condition a{margin: 7px 0px;}
+    .product-perent-img{margin: 5px 0px; margin-left: 10px;}
+    .product-child-img img{margin: 5px 0px;}
+    .product-child-img img, .product-perent-img img{border-radius: 7px;}
+    .page-path h6{font-size: 13px;}
+    .product-details{padding: 20px 0px;}
+    .product-name h3{font-size: 23px;}
+    .product-main-price h5{font-size: 20px;}
+    .product-paragraph p{font-size: 16px; line-height: 23px;}
+    .product-add-to-cart{flex-wrap: wrap; justify-content: center; gap: 15px;}
+    .product-add-btn a{padding: 10px 80px; text-align: center;}
+    .client-link{font-size: 15px;}
+    .client-link.active{font-size: 15px;}
+    .review-head-btn button{padding: 7px 14px; font-size: 15px;}
+    .client-tab-cnt .container{padding: 0;}
+    .client-review-head{margin-bottom: 20px;}
+    .review-five-star img{width: 90px; margin-bottom: 7px;}
+    .review-card-cnt{padding: 15px 20px; margin-bottom: 20px;}
+    .review-name h5{font-size: 19px;}
+    .review-card-blue-tick img{width: 13px;}
+    .review-name{align-items: center; margin-bottom: 7px;}
+    .review-paragraph p{font-size: 15px; line-height: 20px;}
+    .review-card-more-btn{margin-top: 10px;}
+    .also-like{padding: 0;}
+    .also-head h3{font-size: 25px; margin-bottom: 25px;}
+    .cart-head h3{font-size: 25px; margin: 20px 0px;}
+    .cart-item-name-sec{flex-wrap: wrap; justify-content: center;}
+    .cart-item-name{margin: 0;}
+    .cart-item-img img{margin-bottom: 15px;}
+    .cart-pay-price h5, .cart-pay-price h4, .cart-pay-total h5{font-size: 16px;}
+    .cart-pay-total h4{font-size: 20px;}
+    .cart-promo-input .btn-minus{font-size: 20px; bottom: 7px; left: 15px;}
+    .cart-promo-input input{padding-left: 35px;}
+    .cart-promo-input ::placeholder{font-size: 18px;}
+    .cart-check-out a{padding: 15px 30px;}
+
+
+
+
 
 
 

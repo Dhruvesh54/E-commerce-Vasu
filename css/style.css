@@ -407,7 +407,7 @@ ul
     color: #fff;
     background-color: #181C1F;
     text-align: center;
-    padding: 8px 0px;
+    padding: 10px 0px;
 }
 
 .sign-up-offer-content
@@ -451,6 +451,31 @@ ul
     color: #fff;
     position: absolute;
     right: 40px;
+    border: none;
+    background: none;
+}
+
+.sign-up-offer-content.signup-mobile-view
+{
+    display: none;
+}
+
+.signup-mobile-view
+{
+    display: flex;
+}
+
+.signup-mobile-view .sign-up-offer-line
+{
+    width: 85%;
+}
+
+.signup-mobile-view  .sign-up-offer-close-btn button
+{
+    color: #fff;
+    position: absolute;
+    top: 5px;
+    right: 15px;
     border: none;
     background: none;
 }
@@ -604,7 +629,7 @@ ul
 
 .show-menu {
     opacity: 1;
-    top: 115px;
+    top: 130px;
     padding-left: 30px;
     pointer-events: initial;
     background-color: #F2F0F1;
@@ -1094,7 +1119,6 @@ ul
 {
     background-color: #F0F0F0;
     padding: 50px 0px;
-    padding-top: 150px;
 }
 
 .footer-paragraph h3
@@ -1737,10 +1761,28 @@ ul
     display: none;
 }
 
+.category-pagination.pagination-mobile-view
+{
+    display: none;
+}
+
+.pagination-flex
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .page-mobile-view
 {
     display: flex;
     align-items: center;
+    margin-left: 10px;
+}
+
+.mobile-view
+{
+    display: none;
 }
 
 .page-mobile-view ul

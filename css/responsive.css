@@ -60,6 +60,8 @@
     .cart-promo-btn.btn,.cart-promo-btn a{width: 100%;}
     .cart-check-out a{padding: 15px 55px; text-align: center;}
     .happy-customer-slider{grid-template-columns: 1fr 1fr;}
+    .category-pagination.pagination-mobile-view{display: block;}
+    .category-pagination{display: none;}
 
 }
 
@@ -97,6 +99,9 @@
     .cart-check-out a{text-align: center;}
     .cart-details-main{padding-bottom: 50px;}
     .happy-customer-slider{grid-template-columns: 1fr 1fr;}
+    .pagination-mobile-view{display: block;}
+    .category-pagination.pagination-mobile-view{display: block;}
+    .category-pagination{display: none;}
 
 }
 
@@ -131,6 +136,16 @@
     .cart-promo-btn a{padding: 10px 0px;}
     .product-child-img img{margin-bottom: 10px; border-radius: 10px;}
     .happy-customer-slider{grid-template-columns: 1fr;}
+    .category-pagination.pagination-mobile-view{display: block;}
+    .category-pagination{display: none;}
+    .mobile-view{display: block;}
+    .tablet-view{display: none;}
+
+    .sign-up-offer-line p, .sign-up-offer-line a{font-size: 14px;}
+    .sign-up-offer-line{width: 100%;}
+    .sign-up-offer .container{padding: 0;}
+    .sign-up-offer-content.signup-mobile-view{display: block;}
+    .sign-up-offer-content{display: none;}
 
 }
 

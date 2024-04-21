@@ -120,6 +120,7 @@
     .product-add-btn a{padding: 10px 75px;}
     .coll-card-txt h4{font-size: 20px;}
     .coll-card-txt h6{width: 100%; font-size: 14px;}
+    .coll-card-price h6{width: 30px;}
     .filter-apply-btn a{font-size: 15px;}
     .category-sorting{width: 215px;}
     .cart-head h3{font-size: 32px;}
@@ -138,6 +139,8 @@
     .happy-customer-slider{grid-template-columns: 1fr;}
     .category-pagination.pagination-mobile-view{display: block;}
     .category-pagination{display: none;}
+    .category-card-head{flex-wrap: wrap;}
+    .category-card-head h3{margin-bottom: 10px;}
     .mobile-view{display: block;}
     .tablet-view{display: none;}
 
@@ -167,6 +170,7 @@
     .coll-heading{padding-bottom: 20px;}
     .coll-card-txt h4{font-size: 18px;}
     .coll-card-txt h6{font-size: 13px;line-height: 15px;}
+    .coll-card-price h6{width: 30px;}
     .coll-card-price h5{font-size: 17px;}
     .facility{padding: 30px 0px;}
     .different-section{padding: 30px 0px;}

@@ -24,6 +24,7 @@
     .product-add-btn a{padding: 15px 80px;}
     .also-like{padding-top: 0px;}
     .cart-promo-input input, .cart-promo-input, .cart-promo-btn.btn, .cart-promo-btn a{width: 100%;}
+    .happy-customer-slider{grid-template-columns: 1fr 1fr;}
 
 }
 
@@ -58,6 +59,7 @@
     .cart-promo-input ::placeholder { padding-left: 0px; font-size: 18px; }
     .cart-promo-btn.btn,.cart-promo-btn a{width: 100%;}
     .cart-check-out a{padding: 15px 55px; text-align: center;}
+    .happy-customer-slider{grid-template-columns: 1fr 1fr;}
 
 }
 
@@ -94,6 +96,7 @@
     .cart-promo-input input, .cart-promo-input, .cart-promo-btn.btn, .cart-promo-btn a{width: 100%;}
     .cart-check-out a{text-align: center;}
     .cart-details-main{padding-bottom: 50px;}
+    .happy-customer-slider{grid-template-columns: 1fr 1fr;}
 
 }
 
@@ -127,6 +130,7 @@
     .cart-pay-total{margin-bottom: 20px;}
     .cart-promo-btn a{padding: 10px 0px;}
     .product-child-img img{margin-bottom: 10px; border-radius: 10px;}
+    .happy-customer-slider{grid-template-columns: 1fr;}
 
 }
 

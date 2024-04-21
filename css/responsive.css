@@ -3,171 +3,43 @@
 }
 
 @media screen and (min-width:1025px) and (max-width:1240px) {
-
-.new-collection
-{
-    padding: 50px 0px;
-}
-
-.facility
-{
-    padding: 40px 0px;
-}
-
-.facility-card-cnt p
-{
-    width: 100%;
-}
-
-.wear-to-wedding
-{
-    padding-bottom: 70px;
-}
-
-.filter-color-codes
-{
-    grid-template-columns: 1fr 1fr 1fr;
-}
-
-.product-add-btn a
-{
-    padding: 15px 90px;
-}
-
-.also-like
-{
-    padding-top: 0px;
-}
-
-.cart-promo-input input,
-.cart-promo-input,
-.cart-promo-btn.btn,
-.cart-promo-btn a
-{
-    width: 100%;
-}
+    .new-collection{padding: 50px 0px;}
+    .facility{padding: 40px 0px;}
+    .facility-card-cnt p{width: 100%;}
+    .wear-to-wedding{padding-bottom: 70px;}
+    .filter-color-codes{grid-template-columns: 1fr 1fr 1fr;}
+    .product-add-btn a{padding: 15px 90px;}
+    .also-like{padding-top: 0px;}
+    .cart-promo-input input, .cart-promo-input, .cart-promo-btn.btn, .cart-promo-btn a{width: 100%;}
 
 }
 
 @media screen and (min-width:992px) and (max-width:1024px) {
-
-    .new-collection
-    {
-        padding: 50px 0px;
-    }
-    
-    .different-section
-    {
-        padding: 40px 0px;
-    }
-
-    .facility
-    {
-        padding: 40px 0px;
-    }
-    
-    .facility-card-cnt p
-    {
-        width: 100%;
-    }
-    
-    .wear-to-wedding
-    {
-        padding-bottom: 70px;
-    }
-    
-    .filter-color-codes
-    {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-
-    .product-add-btn a
-    {
-        padding: 15px 80px;
-    }
-    
-    .also-like
-    {
-        padding-top: 0px;
-    }
-    
-    .cart-promo-input input,
-    .cart-promo-input,
-    .cart-promo-btn.btn,
-    .cart-promo-btn a
-    {
-        width: 100%;
-    } 
+    .new-collection{padding: 50px 0px;}
+    .different-section{padding: 40px 0px;}
+    .facility{padding: 40px 0px;}
+    .facility-card-cnt p{width: 100%;}
+    .wear-to-wedding{padding-bottom: 70px;}
+    .filter-color-codes{grid-template-columns: 1fr 1fr 1fr;}
+    .product-add-btn a{padding: 15px 80px;}
+    .also-like{padding-top: 0px;}
+    .cart-promo-input input, .cart-promo-input, .cart-promo-btn.btn, .cart-promo-btn a{width: 100%;}
 
 }
 
 @media screen and (min-width:768px) and (max-width:991px) {
-
-    .card-mobile-view{display: block;}
-    .carousel-control-prev,
-    .carousel-control-next
-    {
-        width: 40px;
-        height: 80px;
-        padding-left: 15px;
-    }
-
-    .new-collection
-    {
-        padding: 50px;
-    }
-
-    .facility-card-cnt
-    {
-        margin-bottom: 40px;
-    }
-
-    .facility-content
-    {
-        padding-bottom: 10px;
-    }
-
-    .wedding-outfit-img img
-    {
-        height: 200px;
-    }
-
-    .wear-to-wedding
-    {
-        padding-top: 0px;
-        padding-bottom: 70px;
-    }
-
-    .footer-cnt
-    {
-        margin-bottom: 40px;
-    }
-
-    .footer-links
-    {
-        justify-content: left;
-    }
-
-    .category-sorting
-    {
-        width: 215px;
-    }
-
-    .product-name h3
-    {
-        font-size: 28px;
-    }
-
-    .product-main-price h5
-    {
-        font-size: 20px;
-    }
-
-    .product-paragraph p
-    {
-        font-size: 16px;
-    }
-
+    .card-mobile-view{display: block;} .carousel-control-prev, .carousel-control-next{width: 40px; height: 80px; padding-left: 15px;}
+    .new-collection{padding: 50px;}
+    .facility-card-cnt{margin-bottom: 40px;}
+    .facility-content{padding-bottom: 10px;}
+    .wedding-outfit-img img{height: 200px;}
+    .wear-to-wedding{padding-top: 0px; padding-bottom: 70px;}
+    .footer-cnt{margin-bottom: 40px;}
+    .footer-links{justify-content: left;}
+    .category-sorting{width: 215px;}
+    .product-name h3{font-size: 28px;}
+    .product-main-price h5{font-size: 20px;}
+    .product-paragraph p{font-size: 16px;}
     .product-item input{padding: 10px 20px;}
     .product-add-btn a{padding: 10px 34px;}
     .cart-item-name h4{font-size: 20px;}
@@ -223,7 +95,6 @@
     .cart-check-out a{text-align: center;}
     .cart-details-main{padding-bottom: 50px;}
 
-
 }
 
 @media screen and (max-width:575px) {
@@ -256,7 +127,6 @@
     .cart-pay-total{margin-bottom: 20px;}
     .cart-promo-btn a{padding: 10px 0px;}
     .product-child-img img{margin-bottom: 10px; border-radius: 10px;}
-
 
 }
 
@@ -321,77 +191,25 @@
     .cart-promo-input ::placeholder{font-size: 18px;}
     .cart-check-out a{padding: 15px 30px;}
 
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
 
 
 /* ========================= Extra BreakPoints For ========================= */
 @media screen and (min-width: 1118px) {
-    .nav-toggle {
-        display: none;
-    }
-
-    .nav-list {
-        display: flex;
-        column-gap: 30px;
-        height: 100%;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .nav li {
-        display: flex;
-    }
-
-    .nav-link {
-        padding: 0;
-    }
+    .nav-toggle{display: none;}
+    .nav-list{display: flex; column-gap: 30px; height: 100%; justify-content: center; align-items: center;}
+    .nav li{display: flex;}
+    .nav-link{padding: 0;}
 
 }
 
 
 @media screen and (max-width: 1118px) {
-    .nav-mobile-view {
-        display: block;
-    }
-
-    .nav-only-mobile {
-        display: flex;
-        align-items: center;
-    }
-
-    .nav-responsive-view {
-        display: flex;
-        align-items: center;
-    }
-
-    .main-links {
-        display: block;
-
-        position: absolute;
-        top: 50px;
-        left: 30px;
-    }
-
-    .nav-link {
-        color: #181C1F;
-        font-size: 25px;
-        font-family: 'Int-SemiBold';
-    }
-
-    .nav-menu {
-        display: block;
-    }
+    .nav-mobile-view{display: block;}
+    .nav-only-mobile{display: flex; align-items: center;}
+    .nav-responsive-view{display: flex; align-items: center;}
+    .main-links{display: block; position: absolute; top: 50px; left: 30px;}
+    .nav-link{color: #181C1F; font-size: 25px; font-family: 'Int-SemiBold';}
+    .nav-menu{display: block;}
+    
 }

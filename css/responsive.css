@@ -174,7 +174,7 @@
     .happy-customer-head h3{font-size: 23px;}
     .customer-slider-arrow i{font-size: 21px;}
     .copyright-terms-condition ul{flex-wrap: wrap; justify-content: center; gap: 0px;}
-    .copyright-terms-condition a{margin: 7px 0px;}
+    .copyright-terms-condition a{margin: 0px 10px;}
     .product-perent-img{margin: 5px 0px; margin-left: 10px;}
     .product-child-img img{margin: 5px 0px;}
     .product-child-img img, .product-perent-img img{border-radius: 7px;}

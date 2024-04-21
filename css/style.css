@@ -1200,8 +1200,7 @@ ul
 {
     display: flex;
     align-items: center;
-    margin: 0;
-    gap: 30px;
+    /* gap: 30px; */
 }
 
 .copyright-terms-condition a
@@ -1210,6 +1209,7 @@ ul
     /* margin-left: 30px; */
     font-size: 15px;
     font-family: 'St-Regular';
+    margin: 0px 10px;
 }
 
 .copyright-terms-condition a:hover

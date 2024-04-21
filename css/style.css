@@ -829,6 +829,11 @@ ul
     margin-bottom: 10px;
 }
 
+.card-mobile-view
+{
+    display: none;
+}
+
 .coll-card-txt
 {
     text-align: left;
@@ -1164,12 +1169,13 @@ ul
     display: flex;
     align-items: center;
     margin: 0;
+    gap: 30px;
 }
 
 .copyright-terms-condition a
 {
     color: #cfcfcf;
-    margin-left: 30px;
+    /* margin-left: 30px; */
     font-size: 15px;
     font-family: 'St-Regular';
 }

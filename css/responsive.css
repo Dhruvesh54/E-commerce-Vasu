@@ -103,6 +103,7 @@
 
 @media screen and (min-width:768px) and (max-width:991px) {
 
+    .card-mobile-view{display: block;}
     .carousel-control-prev,
     .carousel-control-next
     {
@@ -189,9 +190,39 @@
 }
 
 @media (max-width: 767px) {
+    .search-item{display: none;}
+    .card-mobile-view{display: block;}
 
+    .heading h3{font-size: 35px;}
+    .heading h5{font-size: 17px;}
     .nav-logo{font-size: 25px;}
     .banner{padding: 20px;}
+    .carousel-control-prev{width: 30px; height: 60px; padding-left: 12px;}
+    .carousel-control-next{width: 30px; height: 60px; padding-left: 12px;}
+    .carousel-indicators li{width: 20px;height: 2px;}
+    .new-collection{padding: 40px 0px;}
+    .coll-heading h3{font-size: 35px;}
+    .coll-heading h5{font-size: 17px;}
+    .facility{padding: 40px 0px;}
+    .facility-content{padding: 40px 50px; padding-bottom: 0px;}
+    .facility-card-cnt i{width: 100px;}
+    .facility-card-cnt p{width: 100%;}
+    .facility-card-cnt{margin-bottom: 40px;}
+    .different-section{padding: 40px 0px;}
+    .wedding-outfit-img img{width: 100%; height: 170px;}
+    .wear-to-wedding{padding-bottom: 70px;}
+    .btn-wrap-about{width: 100px;}
+    .footer-links{justify-content: left;}
+    .footer-cnt{margin-bottom: 40px;}
+    .footer{padding-bottom: 10px;}
+    .copyright-content{flex-wrap: wrap; justify-content: center;}
+    .copyright-content h6{margin-bottom: 20px;}
+    .category-pagination a{font-size: 15px;}
+    .cart-dtl{margin-bottom: 20px;}
+    .cart-promo-input input, .cart-promo-input, .cart-promo-btn.btn, .cart-promo-btn a{width: 100%;}
+    .cart-check-out a{text-align: center;}
+    .cart-details-main{padding-bottom: 50px;}
+
 
 }
 
